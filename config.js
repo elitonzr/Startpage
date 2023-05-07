@@ -11,29 +11,29 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
-	imageBackground: false,
+	name: 'Eliton',
+	imageBackground: true,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: 'Bom dia!!', // 'Good morning!',
+	greetingAfternoon: 'Boa Tarde,', // 'Good afternoon,',
+	greetingEvening: 'Boa Tarde,', // 'Good evening,',
+	greetingNight: 'Vá dormir!!', //'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: 'ac946758ee2b62f03b59e912a9d22630', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
+	language: 'pt_br', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '-22.188',
+	defaultLongitude: '-47.398',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -53,21 +53,21 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'Gmail',
+			icon: 'mail',
+			link: 'https://mail.google.com/',
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			name: 'YouTube',
+			icon: 'youTube',
+			link: 'https://www.youtube.com/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Github',
+			icon: 'github',
+			link: 'https://github.com/',
 		},
 		{
 			id: '4',
@@ -81,50 +81,62 @@ const CONFIG = {
 			icon: 'glasses',
 			link: 'https://reddit.com',
 		},
+		// {
+		// 	id: '6',
+		// 	name: 'Odysee',
+		// 	icon: 'youtube',
+		// 	link: 'https://odysee.com/',
+		// },
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Music',
+			icon: 'headphones',
+			link: 'https://open.spotify.com',
 		},
+		// {
+		// 	id: '8',
+		// 	name: 'twitter',
+		// 	icon: 'twitter',
+		// 	link: 'https://twitter.com/',
+		// },
 	],
 
 	secondButtonsContainer: [
 		{
 			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
+			name: 'Proxmox',
+			icon: 'hard-hat',
+			link: 'https://192.168.0.250:8006',
 		},
 		{
 			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
+			name: 'Home Assistant',
+			icon: 'Home',
+			link: 'http://192.168.0.108:8123',
 		},
 		{
 			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
+			name: 'Node-RED',
+			icon: 'workflow',
+			link: 'http://192.168.0.108:1880/',
 		},
 		{
 			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
+			name: 'Pi-hole',
+			icon: 'router',
+			link: 'http://192.168.0.200/admin',
 		},
 		{
 			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
+			name: 'Plex',
+			icon: 'clapperboard',
+			link: 'http://192.168.0.204:32400',
 		},
 		{
 			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
+			name: 'Airsonic',
+			icon: 'headphones',
+			link: 'http://192.168.0.202:4040',
 		},
 	],
 
