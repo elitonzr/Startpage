@@ -17,13 +17,13 @@ const CONFIG = {
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Bom dia!!', // 'Good morning!',
+	greetingMorning: 'Bom dia!', // 'Good morning!',
 	greetingAfternoon: 'Boa Tarde,', // 'Good afternoon,',
-	greetingEvening: 'Boa Tarde,', // 'Good evening,',
+	greetingEvening: 'Boa Noite,', // 'Good evening,',
 	greetingNight: 'Vá dormir!!', //'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: 'ac946758ee2b62f03b59e912a9d22630', // Write here your API Key
@@ -147,46 +147,78 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'hard-hat',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Proxmox',
+					link: 'https://192.168.0.250:8006',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Home Assistant',
+					link: 'http://192.168.0.108:8123',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Node-RED',
+					link: 'http://192.168.0.108:1880/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Pi-hole',
+					link: 'http://192.168.0.200/admin',
 				},
+				// {
+				// 	name: 'Inspirational',
+				// 	link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+				// },
+				// {
+				// 	name: 'Classic',
+				// 	link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+				// },
+				// {
+				// 	name: 'Oldies',
+				// 	link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+				// },
+				// {
+				// 	name: 'Rock',
+				// 	link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+				// },
 			],
 		},
 		{
 			icon: 'coffee',
 			id: '2',
 			links: [
+				// {
+				// 	name: 'Linkedin',
+				// 	link: 'https://www.linkedin.com',
+				// },
+				// {
+				// 	name: 'Dribbble',
+				// 	link: 'https://www.dribbble.com',
+				// },
+				// {
+				// 	name: 'Trello',
+				// 	link: 'https://www.trello.com',
+				// },
+				// {
+				// 	name: 'Slack',
+				// 	link: 'https://www.slack.com',
+				// },
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Plex',
+					link: 'http://192.168.0.204:32400',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Airsonic',
+					link: 'http://192.168.0.202:4040',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Inspirational',
+					link: 'https://music.youtube.com/watch?v=yPYZpwSpKmA&list=RDAMVMdQw4w9WgXcQ',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Rock',
+					link: 'https://music.youtube.com/watch?v=azdwsXLmrHE&list=RDAMVMazdwsXLmrHE',
 				},
 			],
 		},
