@@ -56,7 +56,7 @@ You can run Bento in a Docker Container, either with `docker run`, or with the i
 #### Docker run
  1. Clone this repo to pull the `config.js` file: `git clone https://github.com/migueravila/Bento/`
  2. Run the following `docker` command, providing the path to the `config.js` file, changing port mappings if needed.
- 3. `# docker run -it -d -p 80:80 -v <config.js location>:/usr/share/nginx/html/config.js lewisdoesstuff/bento`
+ 3. `# docker run -it -d -p 80:80 -v /home/eliton/MEGAsync/github/Startpage:/usr/share/nginx/html lewisdoesstuff/bento`
 
 #### docker-compose
   1. Clone this repo with `git clone https://github.com/migueravila/Bento/`
